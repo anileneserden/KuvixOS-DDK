@@ -1,0 +1,23 @@
+# KuvixOS DDK - Git Ignore Kuralları
+
+# Derleme çıktıları ve geçici ikili dosyalar
+*.kdf
+*.elf
+*.o
+*.a
+*.so
+*.tmp
+
+# Sistem ve Editör dosyaları
+*~
+*.swp
+*.swo
+.DS_Store
+.cache/
+.vscode/
+.idea/
+
+# Log ve metin dosyaları (Geliştirme notları hariç tutulabilir)
+*.log
+*.txt
+status.txt
